@@ -19,28 +19,34 @@
         <img src="images/image (7).jpg" alt="Image 7">
         <img src="images/image (8).jpg" alt="Image 8">
     </div>
-
-    <div class="fv-slideshow-content">
-        <!-- Main slide -->
-        <div class="fv-slide-image">
-            <!-- strip class on image before adding -->
-            <img src="" alt="">            
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev">&#10094;</a>
-        <a class="next">&#10095;</a>
-
-        <!-- Thumbnails grid -->
-        <div class="fv-slide-thumbnails">
-            <!--Use flex grid to position thumbnails -->
-            <div class="fv-slide-thumbnail">
-                <!-- All images will have a thumbnail here, strip class -->
-                <img src="" alt="">
-            </div>
-        </div>
-
+    <div class="fv-slide-button">
+        <button id="btnShowSlide">Open Slideshow</button>
     </div>
-    <script src="/slideshow-component/slideshow.js"></script>
+
+    <div class="fv-lightbox-container">
+        <div class="fv-slideshow-content">
+            <!-- Main slide -->
+            <div class="fv-slide-image">
+                <!-- strip class on image before adding -->
+                <img src="" alt="">            
+            </div>
+    
+            <!-- Next and previous buttons -->
+            <a class="fv-prev">&#10094;</a>
+            <a class="fv-next">&#10095;</a>
+    
+            <!-- Thumbnails grid -->
+            <div class="fv-slide-thumbnails">
+                <!--Use flex grid to position thumbnails -->
+                <div class="fv-slide-thumbnail">
+                    <!-- All images will have a thumbnail here, strip class -->
+                    <img src="" alt="">
+                </div>
+            </div>
+    
+        </div> 
+    </div>
+    
+    <script src="./slideshow-component/slideshow.js"></script>
 </body>
 </html>

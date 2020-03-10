@@ -1,0 +1,33 @@
+.fv-lightbox-container {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+.fv-slideshow-content {      
+    min-width: 350px;
+    min-height: 300px;
+    height: auto;    
+    width: 80%;
+    border: 12px solid whitesmoke;
+    border-radius: 7px;
+    background-color: dimgray; 
+    margin: 10% auto; 
+}
+
+.fv-prev, .fv-next {
+    font-weight: 700;
+    top: 45%;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.fv-next {
+    right: 5px;
+}
